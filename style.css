@@ -1,0 +1,89 @@
+body{
+    background-image: url("grass_63-wallpaper-2560x1440.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: blur(0.1px);
+}
+.wrapper{
+    width: 350px;
+    height: 400px; 
+    background-color: rgb(58 58 58 / 28%);
+    display: block;
+    margin: 100px auto;
+    border-radius: 16px;
+    filter: drop-shadow(8px 8px 10px  );
+    box-shadow: 9px 7px 13px #363635;
+} 
+
+.main1{
+    margin-left: 39px;
+    padding-top: 18px;
+}
+.main2{
+    margin-left: 39px;
+    padding-top: 18px;
+
+
+}
+.main1 input{
+    padding: 6px;
+    padding-right: 82px;
+    border-radius: 16px;
+    outline: none;
+    border: none;
+}
+.main2 input{
+    padding: 6px;
+    padding-right: 82px;
+    border-radius: 16px;
+    border: none;
+    outline: none;
+}
+.main1 h4{
+    margin-left: 89px;
+    margin-bottom: 8px;
+
+}
+.main2 h4{
+    margin-left: 89px;
+    margin-bottom: 8px;
+
+}
+.btn-stk{
+    display: block;
+    margin-left: 80px;
+    padding-left: 80px;
+    padding-right: 73px;
+    margin-top: 35px;
+   border-radius: 10px; 
+    background-color: rgba(0, 0, 0, 0.63);
+    color: aliceblue;
+    border: none;
+    padding-bottom: 6.5px;
+    padding-top: 6.5px;
+}
+.btn-st{
+    display: block;
+    margin-left: 80px;
+    padding-left: 60px;
+    padding-right: 89px;
+    margin-top: 35px;
+    border-radius: 10px; 
+    padding-bottom: 6.5px;
+    padding-top: 6.5px;
+    border: none;
+    background-color: rgb(63, 163, 116);
+    color: rgb(0, 0, 0);
+}
+.btn-stk:hover{
+    background-color: rgba(63, 123, 163, 0.781);
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+
+}
+.btn-st:hover{
+    background-color: rgba(112, 0, 116, 0.781);
+    color: rgb(255, 248, 248);
+    transition: 0.5s;
+}
